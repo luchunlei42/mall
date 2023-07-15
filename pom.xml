@@ -29,7 +29,6 @@
         <module>mall-auth-service</module>
         <module>mall-cart</module>
         <module>mall-seckill</module>
-        <module>mall-seckill</module>
     </modules>
     <properties>
         <elasticsearch.version>7.4.2</elasticsearch.version>
@@ -40,11 +39,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.chunlei.mall</groupId>
-            <artifactId>mall-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

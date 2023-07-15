@@ -19,8 +19,8 @@ server:
 
 alibaba:
   cloud:
-    access-key: LTAI5t6Bh5ppb4FmnwkDBrbX
-    secret-key: mbxIUGLkiFdEHJOaIh4NSC9pUlKwu8
+    access-key:
+    secret-key:
     oss:
       endpoint: oss-cn-shanghai.aliyuncs.com
       bucket: deer-mall
