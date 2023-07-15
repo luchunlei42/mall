@@ -1,0 +1,26 @@
+spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: root
+#    url: jdbc:mysql://192.168.56.42:3306/gulimall_pms
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+  application:
+    name: mall-third-party
+
+server:
+  port: 8086
+  servlet:
+    context-path: /api/thirdparty
+
+alibaba:
+  cloud:
+    access-key: LTAI5t6Bh5ppb4FmnwkDBrbX
+    secret-key: mbxIUGLkiFdEHJOaIh4NSC9pUlKwu8
+    oss:
+      endpoint: oss-cn-shanghai.aliyuncs.com
+      bucket: deer-mall
